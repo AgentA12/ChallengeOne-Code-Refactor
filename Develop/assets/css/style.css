@@ -1,3 +1,4 @@
+/* UNIVERSAL STYLES */
 * {
     box-sizing: border-box;
     padding: 0;
@@ -8,57 +9,7 @@ body {
     background-color: #d9dcd6;
 }
 
-.header {
-    padding: 20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #2a607c;
-    color: #ffffff;
-}
-
-.header h1 {
-    display: inline-block;
-    font-size: 48px;
-}
-
-.header h1 .seo {
-    color: #d9dcd6;
-}
-
-.header nav {
-    padding-top: 15px;
-    margin-right: 20px;
-    float: right;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
-}
-
-.header nav ul {
-    list-style-type: none;
-}
-
-.header nav ul li {
-    display: inline-block;
-    margin-left: 25px;
-}
-
-a {
-    color: #ffffff;
-    text-decoration: none;
-}
-
-p {
-    font-size: 16px;
-}
-
-.hero {
-    height: 800px;
-    width: 100%;
-    margin-bottom: 25px;
-    background-image: url("../images/digital-marketing-meeting.jpg");
-    background-size: cover;
-    background-position: center;
-}
-
+/* UTILITY STYLES */
 .float-left {
     float: left;
     margin-right: 25px;
@@ -69,12 +20,66 @@ p {
     margin-left: 25px;
 }
 
+/* HEADER STYLES */
+.header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+    .header h1 {
+        display: inline-block;
+        font-size: 48px;
+    }
+
+.seo {
+    color: #d9dcd6;
+}
+
+/* NAVIGATION STYLES */
+.navigation {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+    .navigation ul {
+        list-style-type: none;
+    }
+
+    .navigation ul li {
+        display: inline-block;
+        margin-left: 25px;
+    }
+
+.nav-links {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+
+/* HERO IMAGE STYLES */
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-size: cover;
+    background-position: center;
+}
+
+
+/* MAIN CONTENT STYLES */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+
+/* ASIDE STYLES */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -188,6 +193,8 @@ p {
     font-size: 36px;
 }
 
+
+/* FOOTER STYLES */
 .footer {
     padding: 30px;
     clear: both;
