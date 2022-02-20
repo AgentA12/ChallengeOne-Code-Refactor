@@ -71,7 +71,7 @@ body {
 }
 
 
-/* MAIN CONTENT STYLES */
+/* MAIN STYLES */
 .content {
     width: 75%;
     display: inline-block;
@@ -133,6 +133,6 @@ body {
     text-align: center;
 }
 
-    .footer h2 {
+    .footer h4 {
         font-size: 20px;
     }
